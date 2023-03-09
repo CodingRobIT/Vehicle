@@ -1,6 +1,6 @@
 import java.util.NoSuchElementException;
 
-public class Bicycle extends Vehicle {
+public class Bicycle extends Vehicle implements Accelerateable {
     public Bicycle(int id, String name, int velocity) {
         super(id, name, velocity);
     }
