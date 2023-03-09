@@ -7,7 +7,7 @@ public class Main {
         Car car1 = new Car(131414, "Subaru", 100);
 
         System.out.println("Start velocity " + car1.velocity + " km/h");
-        car1.accelerate(0); //Wenn hier nurr gilt nur die Geschwindigkeit in Linie 5 + die Accelerate (Hier +30)
+        car1.accelerate(50); //Wenn hier null gilt nur die Geschwindigkeit in Linie 5
 
         System.out.println("_______________________________________");
 

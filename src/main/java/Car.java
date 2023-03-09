@@ -8,8 +8,8 @@ public class Car extends Vehicle {
     }
 
     public int accelerate(int kmh) {
-        kmh = kmh + 30;
-        System.out.println("Accelerate to: " + (velocity + kmh) + " km/h");
+        velocity = velocity + kmh;
+        System.out.println("Accelerate to: " + (velocity) + " km/h");
         return kmh;
 
     }
