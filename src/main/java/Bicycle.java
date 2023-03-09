@@ -11,6 +11,11 @@ public class Bicycle extends Vehicle {
             System.out.println("Accelerate to: " + (velocity) + " km/h");
             return kmh;
         } throw new NoSuchElementException("to fast");
-
+    }
+    @Override
+    public int brake() {  // ganz easy break setz
+        velocity = 0;     // velocity auf 0
+        return velocity;  //und returnt velocity was ja jetzt 0 ist
     }
 }
+
