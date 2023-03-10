@@ -1,15 +1,15 @@
 import java.util.NoSuchElementException;
 
-public class Bicycle extends Vehicle implements Accelerateable {
+public class Bicycle extends Vehicle {
     public Bicycle(int id, String name, int velocity) {
         super(id, name, velocity);
     }
 
     public int accelerate(int kmh) {
-        velocity = velocity + kmh;
-        if (velocity < 35) {
+        if (velocity + kmh < 35) {
+            velocity = velocity + kmh;
             System.out.println("Accelerate to: " + (velocity) + " km/h");
-            return kmh;
+            return velocity;
         } throw new NoSuchElementException("to fast");
     }
     @Override

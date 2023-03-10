@@ -1,4 +1,4 @@
-public class Car extends Vehicle implements Accelerateable {
+public class Car extends Vehicle {
 
 
 

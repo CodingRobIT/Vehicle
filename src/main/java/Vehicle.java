@@ -1,4 +1,4 @@
-public abstract class Vehicle implements Accelerateable{
+public abstract class Vehicle implements Accelerateable {
 
     @Override
     public int accelerateable(int kmh) {

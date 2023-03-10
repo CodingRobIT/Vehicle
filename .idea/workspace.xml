@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70d0f245-cbde-469d-b326-3cc3b0284139" name="Changes" comment="N/A">
+    <list default="true" id="70d0f245-cbde-469d-b326-3cc3b0284139" name="Changes" comment="so jetzt korrekt mit Geschwindigkeits limitierung">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bicycle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +79,8 @@
       <option name="presentableId" value="Default" />
       <updated>1678376754250</updated>
       <workItem from="1678376755295" duration="4936000" />
-      <workItem from="1678386267687" duration="3974000" />
+      <workItem from="1678386267687" duration="4235000" />
+      <workItem from="1678432626119" duration="2139000" />
     </task>
     <task id="LOCAL-00001" summary="Aufgabe Vehicle bis seite 2 Fertig">
       <created>1678378839064</created>
@@ -128,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678390093743</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="N/A">
+      <created>1678390748393</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678390748393</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +160,8 @@
     <MESSAGE value="Fertig ohne Bonus" />
     <MESSAGE value="+ Break" />
     <MESSAGE value="N/A" />
-    <option name="LAST_COMMIT_MESSAGE" value="N/A" />
+    <MESSAGE value="so jetzt korrekt mit Geschwindigkeits limitierung" />
+    <option name="LAST_COMMIT_MESSAGE" value="so jetzt korrekt mit Geschwindigkeits limitierung" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
