@@ -6,12 +6,12 @@ public abstract class Vehicle implements Accelerateable {
     }
 
     int id;
-    String name;
+    String vehicleName;
     int velocity;
 
-    public Vehicle(int id, String name, int velocity) {
+    public Vehicle(int id, String vehicleName, int velocity) {
         this.id = id;
-        this.name = name;
+        this.vehicleName = vehicleName;
         this.velocity = velocity;
     }
 
@@ -23,12 +23,12 @@ public abstract class Vehicle implements Accelerateable {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getVehicleName() {
+        return vehicleName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setVehicleName(String vehicleName) {
+        this.vehicleName = vehicleName;
     }
 
     public int getVelocity() {
@@ -46,13 +46,13 @@ public abstract class Vehicle implements Accelerateable {
 
         if (getId() != vehicle.getId()) return false;
         if (getVelocity() != vehicle.getVelocity()) return false;
-        return getName() != null ? getName().equals(vehicle.getName()) : vehicle.getName() == null;
+        return getVehicleName() != null ? getVehicleName().equals(vehicle.getVehicleName()) : vehicle.getVehicleName() == null;
     }
 
     @Override
     public int hashCode() {
         int result = getId();
-        result = 31 * result + (getName() != null ? getName().hashCode() : 0);
+        result = 31 * result + (getVehicleName() != null ? getVehicleName().hashCode() : 0);
         result = 31 * result + getVelocity();
         return result;
     }
@@ -61,7 +61,7 @@ public abstract class Vehicle implements Accelerateable {
     public String toString() {
         return "Vehicle{" +
                 "id=" + id +
-                ", name='" + name + '\'' +
+                ", name='" + vehicleName + '\'' +
                 ", velocity=" + velocity +
                 '}';
     }

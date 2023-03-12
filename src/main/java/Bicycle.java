@@ -1,8 +1,8 @@
 import java.util.NoSuchElementException;
 
 public class Bicycle extends Vehicle {
-    public Bicycle(int id, String name, int velocity) {
-        super(id, name, velocity);
+    public Bicycle(int id, String bicycleName, int velocity) {
+        super(id, bicycleName, velocity);
     }
 
     public int accelerate(int kmh) {
